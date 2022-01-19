@@ -7,12 +7,16 @@ body {
 	height: 100%;
 }
 
+#holder {
+	display: flex;
+	flex-direction: column;
+}
+
 #center_column {
 	height: 100%;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: #666;
-	display: flex;
-	flex-direction: column;
+	float: left;
 }
