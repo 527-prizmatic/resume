@@ -16,3 +16,11 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+#about_me {
+	border-style: none solid none none;
+	border-width: 2px;
+	border-color: #15b796;
+	width: 20%;
+	height: 100%;
+}
