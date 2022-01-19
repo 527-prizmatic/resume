@@ -19,8 +19,14 @@ body {
 	margin-right: 10%;
 }
 
-#about_me {
+#sidebar {
 	width: 20%;
+	height: 100%;
+	display: flex;
+}
+
+#about_me {
+	width: 100%;
 	height: 100%;
 }
 
