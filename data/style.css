@@ -59,6 +59,10 @@ br { line-height: 100%; }
 	background-color: #1b84c4;
 }
 
+#main {
+	margin-left: 10px;
+}
+
 i.scaps {
 	font-style: normal;
 	font-variant: small-caps;
