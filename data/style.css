@@ -20,7 +20,7 @@ body {
 }
 
 #sidebar {
-	width: 20%;
+	width: 16%;
 	height: 100%;
 	display: flex;
 }
@@ -32,8 +32,8 @@ body {
 
 #separator {
 	width: 3px;
-	height: 90%;
-	margin-top: 5%;
+	height: 90vh;
+	margin-top: 5vh;
 	float: left;
 	background-image: linear-gradient(#13a084, #154bb7, #3c1be4, #9611ee, #cd18ac);
 }
