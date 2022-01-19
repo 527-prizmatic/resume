@@ -31,4 +31,9 @@ body {
 	float: left;
 }
 
-#separator { background-color: #888; }
+#separator {
+	width: 3px;
+	height: 100%;
+	float: left;
+	background-image: linear-gradient(#13a084, #154bb7, #3c1be4, #9611ee, #cd18ac);
+}
