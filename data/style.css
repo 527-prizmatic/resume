@@ -20,9 +20,6 @@ body {
 }
 
 #about_me {
-	border-style: none solid none none;
-	border-width: 2px;
-	border-color: #15b796;
 	width: 16%;
 	height: 100%;
 	display: flex;
