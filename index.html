@@ -43,7 +43,20 @@
 			
 			<div id="main">
 				<div id="main-info">pok</div>
-				<button type="button" onclick="myFunction()">piki</button>
+				<button type="button" id="pok">piki</button>
+				
+				<script>
+               				let main = $("#main-info");
+					let html = "pavouka";
+					function reappear() {
+						document.getElementById("main-info").innerHTML = html;
+						$("#main-info:hidden").fadeIn(1000);
+					}
+					
+					$("#pok").click(function() {
+						main.fadeOut(1000, function() {reappear();});
+					});
+				</script>
 			</div>
 			
 		</div>
