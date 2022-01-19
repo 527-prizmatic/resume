@@ -13,6 +13,8 @@ body {
 	display: flex;
 }
 
+br { line-height: 100%; }
+
 #left_trim {
 	height:100vh;
 	width: 2%;
