@@ -1,21 +1,17 @@
+html, body {
+	height: 100%;
+	margin-top: 0px;
+	margin_bottom: 0px;
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #111;
 	color: #EEE;
-	margin-top: 0px;
-	margin_bottom: 0px;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-#holder {
-	display: flex;
-	flex-direction: column;
 }
 
 #center_column {
-	height: 100%;
+	height: 100vh;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
