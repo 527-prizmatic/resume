@@ -25,4 +25,13 @@ body {
 	border-color: #15b796;
 	width: 16%;
 	height: 100%;
+	display: flex;
 }
+
+#about_me {
+	width: 16%;
+	height: 100%;
+	float: left;
+}
+
+#separator { background-color: #888; }
