@@ -17,12 +17,13 @@ body {
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
+	display: flex;
 }
 
 #about_me {
-	border-style: none solid none none;
-	border-width: 2px;
-	border-color: #15b796;
 	width: 16%;
 	height: 100%;
+	float: left;
 }
+
+#separator { background-color: #888; }
