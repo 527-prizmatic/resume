@@ -51,11 +51,11 @@ br { line-height: 100%; }
 	float: left;
 }
 
-#separator-horizontal {
+.separator-horizontal {
 	width: 60%;
 	height: 3px;
-	margin-top: 10px;
 	margin-left: 20%;
+	background-color: #1b84c4;
 }
 
 i.scaps {
