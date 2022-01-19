@@ -43,7 +43,16 @@
 			
 			<div id="main">
 				<div id="main-info">pok</div>
-				<button type="button" onclick="myFunction()">piki</button>
+				<button type="button" id="pok">piki</button>
+				
+				<script>
+					$("#pok").click(function() {
+						$("#main-info").fadeOut(1000, function() {
+							$("#main-info").innerHTML = "pavouka";
+							$("#main-info").fadeIn(1000);
+						});
+					});
+				</script>
 			</div>
 			
 		</div>
