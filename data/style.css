@@ -13,12 +13,26 @@ body {
 	font-family: 'abeezee';
 }
 
+#left_trim {
+	height:100vh;
+	width: 2%;
+	margin-left: 8%;
+}
+
+#right_trim {
+	height:100vh;
+	width: 2%;
+	margin-right: 8%;
+}
+
 #center_column {
-	height: 100vh;
+	height:100vh;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+.future-gradient { background-image: linear-gradient(#13a084, #154bb7, #3c1be4, #9611ee, #cd18ac); }
 
 #sidebar {
 	width: 16%;
@@ -29,6 +43,8 @@ body {
 #about_me {
 	width: 100%;
 	height: 100%;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
 #separator {
@@ -36,5 +52,4 @@ body {
 	height: 90vh;
 	margin-top: 5vh;
 	float: left;
-	background-image: linear-gradient(#13a084, #154bb7, #3c1be4, #9611ee, #cd18ac);
 }
