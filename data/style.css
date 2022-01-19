@@ -11,6 +11,8 @@ body {
 	display: flex;
 }
 
+.future-gradient { background-image: linear-gradient(#13a084, #154bb7, #3c1be4, #9611ee, #cd18ac); }
+
 br { line-height: 100%; }
 
 #left-trim {
@@ -22,14 +24,13 @@ br { line-height: 100%; }
 #center-column {
 	height:100vh;
 	width: 80%;
+	display: flex;
 }
 
 #right-trim {
 	height:100vh;
 	width: 2%;
 }
-
-.future-gradient { background-image: linear-gradient(#13a084, #154bb7, #3c1be4, #9611ee, #cd18ac); }
 
 #sidebar {
 	width: 16%;
