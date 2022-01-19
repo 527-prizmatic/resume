@@ -10,7 +10,7 @@ body {
 	color: #EEE;
 	margin-top: 0px;
 	margin_bottom: 0px;
-	font-family: 'abeezee';
+	display: flex;
 }
 
 #left_trim {
