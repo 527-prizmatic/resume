@@ -104,6 +104,19 @@ br { line-height: 100%; }
 	font-size: 25px;
 }
 
+.button-fr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 10%;
+	margin: 1%;
+	transition: 0.3s;
+	font-variant: small-caps;
+	font-size: 25px;
+	background-color: #400080;
+}
+
 #button-edu:hover { background-color: #008080; }
 #button-xps:hover { background-color: #004080; }
 #button-rea:hover { background-color: #000080; }
