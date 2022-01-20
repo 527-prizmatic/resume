@@ -66,7 +66,7 @@
 				
 				<script>
 					function reappear() {
-						document.getElementById("text-container").innerHTML = html;
+						$("#text-container:hidden").innerHTML = html;
 						$("#text-container:hidden").fadeIn(1000);
 					}
 					
