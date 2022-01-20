@@ -66,13 +66,14 @@
 				
 				<script>
 					function reappear() {
-						$("#text-container:hidden").innerHTML = html;
 						$("#text-container:hidden").fadeIn(1000);
 					}
-					
+
 					$("#button-edu").click(function() {
-						let html = "lemme try something";
-						$("#text-container").fadeOut(1000, function() {reappear();});
+						$("#text-container").fadeOut(1000, function() {
+							document.getElementById("text-container").load("data/tabs/education.html");
+							reappear();
+						});
 					});
 				</script>
 			</div>
