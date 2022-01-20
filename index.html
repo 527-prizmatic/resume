@@ -67,11 +67,11 @@
 				<script>
 					function reappear() {
 						$("#text-container:hidden").fadeIn(1000);
+						document.getElementById("text-container").load("data/tabs/education.html");
 					}
 
 					$("#button-edu").click(function() {
 						$("#text-container").fadeOut(1000, function() {
-							document.getElementById("text-container").load("data/tabs/education.html");
 							reappear();
 						});
 					});
