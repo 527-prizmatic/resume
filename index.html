@@ -55,11 +55,7 @@
 				
 				<div id="text-container">
 				
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-					
+					Select one of the buttons above to see the corresponding info.
 					
 					
 				</div>
@@ -69,15 +65,14 @@
 				<button type="button" id="pok">piki</button>-->
 				
 				<script>
-               				let main = $("#main-info");
-					let html = "pavouka";
 					function reappear() {
-						document.getElementById("main-info").innerHTML = html;
-						$("#main-info:hidden").fadeIn(1000);
+						document.getElementById("text-container").innerHTML = html;
+						$("#text-container:hidden").fadeIn(1000);
 					}
 					
-					$("#pok").click(function() {
-						main.fadeOut(1000, function() {reappear();});
+					$("#button-edu").click(function() {
+						let html = "lemme try something";
+						$("#text-container").fadeOut(1000, function() {reappear();});
 					});
 				</script>
 			</div>
