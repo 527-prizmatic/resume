@@ -137,3 +137,8 @@ hr {
 	text-align: left;
 	margin-left: 0;
 }
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
