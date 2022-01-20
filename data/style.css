@@ -68,22 +68,22 @@ br { line-height: 100%; }
 #top-bar {
 	width: 100%;
 	height: 12%;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
 .top-bar-button {
-	width: 20%;
-	height: 100%;
-	opacity: 0;
+	width: 18%;
+	height: 90%;
+	margin: 5% 1%;
 	transition: 0.3s;
 }
 
-#button-edu { background-color: #008080; }
-#button-xps { background-color: #004d80; }
-#button-rea { background-color: #002b80; }
-#button-skl { background-color: #2a0080; }
-#button-ctm { background-color: #800080; }
-
-.top-bar-button:hover {opacity: 1}
+#button-edu:hover { background-color: #008080; }
+#button-xps:hover { background-color: #004d80; }
+#button-rea:hover { background-color: #002b80; }
+#button-skl:hover { background-color: #2a0080; }
+#button-ctm:hover { background-color: #800080; }
 
 i.scaps {
 	font-style: normal;
