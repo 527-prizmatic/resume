@@ -52,33 +52,28 @@
 					<div class="separator-horizontal"></div>
 				</div>
 				
-				<div id="text-container">
-				
-					Select one of the buttons above to see the corresponding info.
-					
-					
-				</div>
-				
-				<!--unused, experimental
-				<div id="main-info">pok</div>
-				<button type="button" id="pok">piki</button>-->
+				<div id="text-container">Select one of the buttons above to see the corresponding info.</div>
 				
 				<script>
-					function reappear() {
-						$("#text-container:hidden").fadeIn(1000);
-					}
+					function reappear() { $("#text-container:hidden").fadeIn(600); }
 
-					$("#button-edu").click(function() {
-						$("#text-container").fadeOut(1000, function() {
-							$("#text-container:hidden").load("data/tabs/education.html");
-							reappear();
-						});
-					});
+					$("#button-edu").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/education.html"); reappear(); }); });
+					
+					$("#button-xps").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/experiences.html"); reappear(); }); });
+					
+					$("#button-rea").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/realizations.html"); reappear(); }); });
+					
+					$("#button-skl").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/skills.html"); reappear(); }); });
+					
+					$("#button-ctm").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/contact.html"); reappear(); }); });
 				</script>
 			</div>
-			
 		</div>
-		
 		<div id="right-trim" class="future-gradient"></div>
 	</body>
 </html>
