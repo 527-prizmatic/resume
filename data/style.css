@@ -70,6 +70,16 @@ br { line-height: 100%; }
 	height: 12%;
 	display: flex;
 	flex-wrap: nowrap;
+	flex-direction: column;
+}
+
+#top-bar-button-holder {
+	width: 100%;
+	height: 95%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	padding-bottom: 10px;
 }
 
 .top-bar-button {
@@ -85,9 +95,9 @@ br { line-height: 100%; }
 }
 
 #button-edu:hover { background-color: #008080; }
-#button-xps:hover { background-color: #004d80; }
-#button-rea:hover { background-color: #002b80; }
-#button-skl:hover { background-color: #2a0080; }
+#button-xps:hover { background-color: #004080; }
+#button-rea:hover { background-color: #000080; }
+#button-skl:hover { background-color: #400080; }
 #button-ctm:hover { background-color: #800080; }
 
 i.scaps {
