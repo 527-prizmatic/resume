@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CV J.Sébastien Toussaint</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="data/style.css"/>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>
+		<div id="left-trim" class="future-gradient"></div>
+		<div id="center-column" style="background-color:#222;">
+			<div id="sidebar">
+				<div id="sidebar-vertical">
+					<div id="about-me">
+						<br><br><br><br>
+						<h2><i class="scaps">Toussaint</i> Jean-Sébastien</h2>
+						Né le: 12 Février 2004 (17 ans)<br>
+						Adresse: 13013 Marseille, France<br><br>
+						<div class="separator-horizontal"></div>
+						<h3>À propos:</h3>
+						Parle couramment <strong class="medium">Français</strong> (natif) et <strong class="medium">Anglais</strong> (Niveau C1)<br>
+						Bases d'<class="medium">Allemand</strong> (Niveau A2)<br>
+						Programmeur amateur (majoritairement <strong class="medium">Java</strong>)<br>
+						Fait de l'<strong class="medium">escrime</strong> en club<br>
+						Aime le dessin et faire de la musique<br>
+						Amateur de jeux de rôle<br><br>
+						<div class="separator-horizontal"></div>
+						<h3>À la recherche de:</h3>
+						<strong class="high">Stage de fin d'études</strong><br>
+						Durée: 10 semaines<br>
+						Dates: <i class="date">11 Avril - 17 Juin</i><br>
+						Domaines:<br>
+						<ul>
+							<li>Informatique</li>
+							<li>Électronique</li>
+							<li>Développement logiciel</li>
+							<li>Automatisation</li>
+						</ul>
+					</div>
+					<div id="button-fr"><a href="index-fr.html">Passer à la version anglaise</a></div>
+				</div>
+			</div>
+			
+			<div id="separator-vertical" class="future-gradient"></div>
+			
+			<div id="main">
+				<div id="top-bar">
+					<div id="top-bar-button-holder">
+						<div id="button-edu" class="top-bar-button">Education</div>
+						<div id="button-xps" class="top-bar-button">Experience</div>
+						<div id="button-rea" class="top-bar-button">Realizations</div>
+						<div id="button-skl" class="top-bar-button">Skills</div>
+						<div id="button-ctm" class="top-bar-button">Contact me</div>
+					</div>
+					<div class="separator-horizontal"></div>
+				</div>
+				
+				<div id="text-container">Choisissez l'un des boutons ci-dessus pour affier les informations correspondantes.</div>
+				
+				<script>
+					function reappear() { $("#text-container:hidden").fadeIn(600); }
+
+					$("#button-edu").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/education.html"); reappear(); }); });
+					
+					$("#button-xps").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/experiences.html"); reappear(); }); });
+					
+					$("#button-rea").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/realizations.html"); reappear(); }); });
+					
+					$("#button-skl").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/skills.html"); reappear(); }); });
+					
+					$("#button-ctm").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs/contact.html"); reappear(); }); });
+				</script>
+			</div>
+		</div>
+		<div id="right-trim" class="future-gradient"></div>
+	</body>
+</html>
