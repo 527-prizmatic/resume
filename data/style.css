@@ -70,6 +70,7 @@ br { line-height: 100%; }
 	transition: 0.3s;
 	font-variant: small-caps;
 	font-size: 25px;
+	cursor: pointer;
 }
 
 #button-fr:hover { background-color: #400080; }
@@ -122,6 +123,7 @@ br { line-height: 100%; }
 	transition: 0.3s;
 	font-variant: small-caps;
 	font-size: 25px;
+	cursor: pointer;
 }
 
 #button-edu:hover { background-color: #008080; }
