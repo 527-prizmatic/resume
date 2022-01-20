@@ -59,7 +59,7 @@ br { line-height: 100%; }
 	height: 90%;
 }
 
-.button-fr {
+#button-fr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
