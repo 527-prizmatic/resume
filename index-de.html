@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lebenslauf J.Sébastien Toussaint</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="data/style.css"/>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>
+		<div id="left-trim" class="future-gradient"></div>
+		<div id="center-column" style="background-color:#222;">
+			<div id="sidebar">
+				<div id="sidebar-vertical">
+					<div id="about-me">
+						<br><br><br><br>
+						<h2><i class="scaps">Toussaint</i> Jean-Sébastien</h2>
+						Geboren am: 12. Februar 2004 (18 J. alt)<br>
+						Adresse: 13013 Marseille, Frankreich<br><br>
+						<div class="separator-horizontal"></div>
+						<h3>Über mich:</h3>
+						Spricht fließend <strong class="medium">Französisch</strong> (Muttersprache) und <strong class="medium">Englisch</strong> (C1)<br>
+						Grundlagen des <class="medium">Deutsch</strong> (B1)<br> und <class="medium">Schwedisch</strong> (A1)<br>
+						Amateur Programmierer (hauptsächlich <strong class="medium">Java und C</strong>)<br>
+						Zeichnet und macht Musik gern<br>
+						Rollenspiele Spieler<br><br>
+						<div class="separator-horizontal"></div>
+						<h3>Sucht:</h3>
+						<!--<strong class="high">Job étudiant - Été 2022</strong><br>
+						Durée: 1 mois<br>
+						Dates: <strong class="medium">De préférence en Juillet</strong><br>
+						Domaines: Quelconque-->nix
+					</div>
+					<div id="button-fr"><a href="index.html">Zur Englische Version</a></div>
+				</div>
+			</div>
+			
+			<div id="separator-vertical" class="future-gradient"></div>
+			
+			<div id="main">
+				<div id="top-bar">
+					<div id="top-bar-button-holder">
+						<div id="button-edu" class="top-bar-button">Erziehung</div>
+						<div id="button-xps" class="top-bar-button">Erfahrung</div>
+						<div id="button-rea" class="top-bar-button">Projekte</div>
+						<div id="button-skl" class="top-bar-button">Kompetenzen</div>
+						<div id="button-ctm" class="top-bar-button">Mich kontaktieren</div>
+					</div>
+					<div class="separator-horizontal"></div>
+				</div>
+				
+				<div id="text-container">Choisissez l'un des boutons ci-dessus pour afficher les informations correspondantes.</div>
+				Wählen Sie einer der Schaltflächen aus, um entsprechenden Informationen anzuzeigen.
+				<script>
+					function reappear() { $("#text-container:hidden").fadeIn(600); }
+
+					$("#button-edu").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs-fr/education.html"); reappear(); }); });
+					
+					$("#button-xps").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs-fr/experiences.html"); reappear(); }); });
+					
+					$("#button-rea").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs-fr/realizations.html"); reappear(); }); });
+					
+					$("#button-skl").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs-fr/skills.html"); reappear(); }); });
+					
+					$("#button-ctm").click(function() { $("#text-container").fadeOut(600, function() {
+						$("#text-container:hidden").load("data/tabs-fr/contact.html"); reappear(); }); });
+				</script>
+			</div>
+		</div>
+		<div id="right-trim" class="future-gradient"></div>
+	</body>
+</html>
