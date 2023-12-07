@@ -14,15 +14,14 @@
 					<div id="about-me">
 						<br><br><br><br>
 						<h2><i class="scaps">Toussaint</i> Jean-Sebastien</h2>
-						Born on: Feb. 12, 2004 (Age 18)<br>
+						Born on: Feb. 12, 2004 (Age 19)<br>
 						Address: 13013 Marseille, France<br><br>
 						<div class="separator-horizontal"></div>
 						<h3>About me:</h3>
 						Fluently speaks <strong class="medium">French</strong> (mother language) and <strong class="medium">English</strong> (C1-level)<br>
-						Basics of <strong class="medium">German</strong> (A2-level) and <strong class="medium">Swedish</strong> (A1-level)<br>
+						Basics of <strong class="medium">German</strong> (B1-level) and <strong class="medium">Swedish</strong> (A1-level)<br>
 						Hobbyist programmer (mostly <strong class="medium">Java</strong>)<br>
-						Likes to draw and make music<br>
-						Loves tabletop RPGs<br><br>
+						Visual arts, music, constructed languages and tabletop RPGs enjoyer<br>
 						<div class="separator-horizontal"></div>
 						<h3>Currently looking for:</h3>
 						<!--<strong class="high">Student job - Summer 2022</strong><br>
@@ -33,9 +32,9 @@
 					<div id="button-fr"><a href="index-fr.html">Switch to French version</a></div>
 				</div>
 			</div>
-			
+
 			<div id="separator-vertical" class="future-gradient"></div>
-			
+
 			<div id="main">
 				<div id="top-bar">
 					<div id="top-bar-button-holder">
@@ -47,24 +46,24 @@
 					</div>
 					<div class="separator-horizontal"></div>
 				</div>
-				
+
 				<div id="text-container">Select one of the buttons above to see the corresponding info.</div>
-				
+
 				<script>
 					function reappear() { $("#text-container:hidden").fadeIn(600); }
 
 					$("#button-edu").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs/education.html"); reappear(); }); });
-					
+
 					$("#button-xps").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs/experiences.html"); reappear(); }); });
-					
+
 					$("#button-rea").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs/realizations.html"); reappear(); }); });
-					
+
 					$("#button-skl").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs/skills.html"); reappear(); }); });
-					
+
 					$("#button-ctm").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs/contact.html"); reappear(); }); });
 				</script>
