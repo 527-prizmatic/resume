@@ -14,15 +14,14 @@
 					<div id="about-me">
 						<br><br><br><br>
 						<h2><i class="scaps">Toussaint</i> Jean-Sébastien</h2>
-						Geboren am: 12. Februar 2004 (18 J. alt)<br>
+						Geboren am: 12. Februar 2004 (19 J. alt)<br>
 						Adresse: 13013 Marseille, Frankreich<br><br>
 						<div class="separator-horizontal"></div>
 						<h3>Über mich:</h3>
 						Spricht fließend <strong class="medium">Französisch</strong> (Muttersprache) und <strong class="medium">Englisch</strong> (C1)<br>
-						Grundlagen des <class="medium">Deutsch</strong> (B1)<br> und <class="medium">Schwedisch</strong> (A1)<br>
-						Amateur Programmierer (hauptsächlich <strong class="medium">Java und C</strong>)<br>
-						Zeichnet und macht Musik gern<br>
-						Rollenspiele Spieler<br><br>
+						Grundlagen <class="medium">Deutsches</strong> (B1)<br> und <class="medium">Schwedisches</strong> (A1)<br>
+						Programmierungsstudent (hauptsächlich <strong class="medium">C</strong>)<br>
+						Grafik-, Musik-, Linguistik- und Rollenspiele-Genießer<br><br>
 						<div class="separator-horizontal"></div>
 						<h3>Sucht:</h3>
 						<!--<strong class="high">ok</strong><br>
@@ -33,9 +32,9 @@
 					<div id="button-fr"><a href="index.html">Zur Englische Version</a></div>
 				</div>
 			</div>
-			
+
 			<div id="separator-vertical" class="future-gradient"></div>
-			
+
 			<div id="main">
 				<div id="top-bar">
 					<div id="top-bar-button-holder">
@@ -47,24 +46,24 @@
 					</div>
 					<div class="separator-horizontal"></div>
 				</div>
-				
+
 				<div id="text-container">Wählen Sie einer der Schaltflächen aus, um entsprechenden Informationen anzuzeigen.</div>
-				
+
 				<script>
 					function reappear() { $("#text-container:hidden").fadeIn(600); }
 
 					$("#button-edu").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs-de/education.html"); reappear(); }); });
-					
+
 					$("#button-xps").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs-de/experiences.html"); reappear(); }); });
-					
+
 					$("#button-rea").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs-de/realizations.html"); reappear(); }); });
-					
+
 					$("#button-skl").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs-de/skills.html"); reappear(); }); });
-					
+
 					$("#button-ctm").click(function() { $("#text-container").fadeOut(600, function() {
 						$("#text-container:hidden").load("data/tabs-de/contact.html"); reappear(); }); });
 				</script>
