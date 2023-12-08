@@ -1,5 +1,5 @@
 ## Resume
 
-Welcome on my resume!
+Nothing too fancy, just my resume in web format.
 
-I'll just be making it in a web format, including HTML, CSS and JavaScript.
+https://527-prizmatic.github.io/resume/index.html
